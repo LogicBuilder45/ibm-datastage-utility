@@ -43,22 +43,27 @@ The script supports nested DSX structures, including:
 ## Usage
 python ds_impact_analyzer.py <dsx_file> <search_string>
 
-## Usage
+## EXAMPLE
 python ds_impact_analyzer.py project_export.dsx CUSTOMER_TABLE
 
 This will generate an output file in the same directory as the script.
-ds_job_list_CUSTOMER_TABLE.txt
+ds_job_list_result.txt
 
 
 ## Output Format
 Datetime: 2026-02-10 15:01:33
+
 Search string = CUSTOMER_TABLE
+
 Input file: project_export.dsx
+
 Total match count: 4
+
 ------------------------
 Below is the list of objects where the search string was found
 
 1. object name: LOAD_CUSTOMER_DIM
 2. object name: UPDATE_CUSTOMER_FACT
 3. object name: PS_CUSTOMER_TABLES
+
 4. object name: ROUTINE_SQL_HELPER
